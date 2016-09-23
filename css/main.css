@@ -1,0 +1,161 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html { box-sizing: border-box; -moz-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url("../images/yellow.jpg");
+  background-position: center -1em;
+  background-size: 420%;
+  margin: 0;
+}
+
+header, p, .sm-div {
+  text-align: center;
+}
+
+h1, p {
+  font-style: normal;
+  padding: 1.5em 2em .5em 2em;
+}
+
+p {
+  font-family: "jaf-bernina-sans-condensed",sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: "orator-std",sans-serif;
+  font-weight: 380;
+}
+
+.heart-img {
+  width: 30px;
+}
+
+.sm-icon {
+  width: 45px;
+  padding-right: .5em;
+  padding-left: .5em;
+  margin-bottom: 1em;
+  margin-top: .5em;
+}
+
+.icon-div {
+  text-align: center;
+}
+.icon {
+  width: 200px;
+}
+
+@media only screen and (min-width: 25em) {
+
+  body {
+    background-position: center -1.5em;
+    background-size: 325%;
+  }
+
+  p {
+    padding: 1.5em 4em .5em 4em;
+  }
+
+}
+
+@media only screen and (min-width: 31em) {
+
+  p {
+    padding: 1.5em 8em .5em 8em;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  body {
+    background-position: center -1.25em;
+    background-size: 190%;
+  }
+
+  p {
+    padding: 1.5em 1.5em .5em 1.5em;
+  }
+
+  .intro-div {
+    padding-left: 3.5em;
+    padding-top: 2em;
+  }
+
+  .intro-p {
+    text-align: right;
+    padding-right: .5em;
+  }
+
+  .icon-div {
+    padding-right: 3.5em;
+    padding-top: 2em;
+  }
+
+  .blurb {
+    margin: 0em 10em 1.5em 10em;
+    line-height: 90%;
+  }
+}
+
+@media only screen and (min-width: 46em) {
+
+  body {
+    background-position: center -1.05em;
+    background-size: 150%;
+  }
+
+  .icon-div {
+    padding-right: 7em;
+  }
+
+  .intro-div {
+    padding-left: 7em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  body {
+    background-position: center -1em;
+    background-size: 130%;
+  }
+
+  .icon-div {
+    margin: 0 20em 0 20em;
+    padding-right: 0;
+    padding-top: 0em;
+  }
+
+  .intro-div {
+    margin: 0 30% 0 30%;
+    padding-left: 0em;
+    padding-top: .5em;
+  }
+
+  .intro-p {
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .blurb {
+    margin: 0em 30% 1.5em 30%;
+  }
+}
+
+@media only screen and (min-width: 65em) {
+
+  body {
+    background-position: center -1em;
+    background-size: 115%;
+  }
+}
